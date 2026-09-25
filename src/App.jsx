@@ -116,7 +116,7 @@ function App() {
   useEffect(() => {
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
-    const frameCount = 240;
+    const frameCount = 199;
     
     const dpr = window.devicePixelRatio || 1;
     canvas.width = window.innerWidth * dpr;
