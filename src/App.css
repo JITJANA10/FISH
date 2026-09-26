@@ -1013,3 +1013,28 @@ button, a, .wishlist-btn, .add-to-cart {
   border-color: var(--color-accent-gold);
   box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(0,0,0,0.9);
+  }
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .nav-links li a {
+    font-size: 0.8rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
